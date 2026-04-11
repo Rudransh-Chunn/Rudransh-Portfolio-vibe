@@ -5,11 +5,6 @@ It showcases my projects, skills, and web development journey with a clean and i
 
 ---
 
-## 🌐 Live Demo
-👉https://rudransh-chunn.github.io/Rudransh-Portfolio
-
----
-
 ## 🛠️ Tech Stack
 - HTML5
 - CSS3
