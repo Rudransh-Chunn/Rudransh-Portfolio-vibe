@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rudransh Chunn</title>
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="Portfolio.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">Rudransh <span>Chunn</span></div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+
+    <!-- MOBILE DROPDOWN -->
+    <div class="dropdown">
+      <a href="#home" onclick="cancel()">Home</a>
+      <a href="#about" onclick="cancel()">About</a>
+      <a href="#skills" onclick="cancel()">Skills</a>
+      <a href="#projects" onclick="cancel()">Projects</a>
+      <a href="#contact" onclick="cancel()">Contact</a>
+      <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home">
+    <div class="main-container">
+
+      <div class="content">
+        <h1>Hey, I'm <span>Rudransh</span></h1>
+
+        <div class="typewriter">
+          I'm a <span class="typewriter-text"></span><span>|</span>
+        </div>
+
+        <p>  I turn ideas into responsive, interactive web experiences using HTML, CSS, and JavaScript.  
+             I also work with Python, which is my strongest programming language, and I use it for logic building and practice projects.  
+             I enjoy building clean, modern UI designs and constantly improving my skills by creating real projects instead of just tutorials.</p>
+         <!-- STATS -->    
+        <div class="stats">
+          <div class="stat-box">🚀 10+ Projects</div>
+        </div>
+        <!-- BUTTON -->
+        <div class="btn">
+          <a href="Assets/Rudransh_Resume.pdf" download="Rudransh_Resume.pdf"><button>Download Resume</button></a>
+        </div>
+      </div>
+
+      <!-- IMAGE -->
+      <div class="image">
+        <img src="Assets/Me.jpg" alt="Profile Image">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a young student developer passionate about web development and UI design.
+      I specialize in building responsive and interactive websites using HTML, CSS, JavaScript and Python.
+      Right now I’m 13+ and constantly leveling up my skills through real projects instead of just theory.
+      I also work with tools like Figma and Canva to design clean and modern interfaces.
+      My goal is to become a full-stack developer and build impactful real-world applications.
+    </p>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <canvas id="skillsChart" width="400" height="200"></canvas>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+
+      <div class="project-card">
+        <h3>Random Number Guesser (Python)</h3>
+        <p>A simple Python game where the user guesses a randomly generated number with feedback.</p>
+        <p><strong>Tech:</strong> Python</p>
+        <p><strong>Status:</strong> Practice Project</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Calculator (Web)</h3>
+        <p>A basic calculator built using HTML, CSS, and JavaScript with a clean user interface.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <p><strong>Status:</strong> Practice Project</p>
+      </div>
+
+    </div>
+  </section>
+
+<!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <div class="contact-box">
+
+      <!-- EMAIL -->
+      <p>📧 Email: rudranshchunn2k13@gmail.com</p>
+
+      <!-- GITHUB --> 
+      <p>
+        🐙 GitHub:
+        <a href="https://github.com/Rudransh-Chunn" target="_blank">
+          github.com/Rudransh-Chunn
+        </a>
+      </p>
+
+      <!-- DISCORD -->
+      <p>💬 Discord: rudransh_chunn</p>
+
+    </div>
+  </section>
+    <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <!-- JS -->
+  <script src="Portfolio.js"></script>
+
+</body>
+
+</html>
