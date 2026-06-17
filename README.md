@@ -14,9 +14,6 @@ It showcases my projects, skills, and web development journey with a clean and i
 
 ---
 
-## Live Demo
-https://rudranshchunn.netlify.app/
----
 
 ## ✨ Features
 - Fully responsive design for all devices
