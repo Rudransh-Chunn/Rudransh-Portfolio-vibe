@@ -1,4 +1,4 @@
-# 🚀 Personal Portfolio Website
+#  Personal Portfolio Website
 
 A modern, responsive personal portfolio website built using **HTML, CSS, and JavaScript**.  
 It showcases my projects, skills, and web development journey with a clean and interactive UI.
@@ -15,7 +15,7 @@ It showcases my projects, skills, and web development journey with a clean and i
 ---
 
 
-## ✨ Features
+##  Features
 - Fully responsive design for all devices
 - Smooth animations and transitions
 - Typewriter text effect
@@ -25,7 +25,7 @@ It showcases my projects, skills, and web development journey with a clean and i
 - Modern UI design
 
 ---
-## 📁 Project Structure
+## Project Structure
 portfolio/
  ├── Portfolio.html
  ├── Portfolio.css
