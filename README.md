@@ -5,7 +5,7 @@ It showcases my projects, skills, and web development journey with a clean and i
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - HTML5
 - CSS3
 - JavaScript (ES6)
